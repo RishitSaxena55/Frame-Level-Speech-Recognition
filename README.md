@@ -129,8 +129,8 @@ dataset/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/frame-level-phoneme-classifier.git
-cd frame-level-phoneme-classifier
+git clone https://github.com/RishitSaxena55/Frame-Level-Speech-Recognition.git
+cd Frame-Level-Speech-Recognition
 ```
 
 ### 2. Install Dependencies
@@ -160,5 +160,6 @@ frame-level-phoneme-classifier/
 ├── models/                       # Saved model checkpoints
 ├── logs/                         # Training logs
 ├── metrics/                      # Result plots and visualizations
+├── submission.csv               # Final predictions for test set
 └── README.md                     # This file
 ```
