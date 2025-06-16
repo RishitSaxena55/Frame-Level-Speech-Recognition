@@ -1,0 +1,26 @@
+
+Epoch 1/5
+	Train Acc 72.1171%	Train Loss 0.8809	 Learning Rate 0.0010000
+	Val Acc 77.7211%	Val Loss 0.6752
+	Validation accuracy improved from 0.0000% to 77.7211%! Saving checkpoint...
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+
+Epoch 2/5
+	Train Acc 76.5515%	Train Loss 0.7292	 Learning Rate 0.0010000
+	Val Acc 79.0979%	Val Loss 0.6315
+	Validation accuracy improved from 77.7211% to 79.0979%! Saving checkpoint...
+
+Epoch 3/5
+	Train Acc 77.5767%	Train Loss 0.6943	 Learning Rate 0.0010000
+	Val Acc 79.7628%	Val Loss 0.6108
+	Validation accuracy improved from 79.0979% to 79.7628%! Saving checkpoint...
+
+Epoch 4/5
+	Train Acc 78.1546%	Train Loss 0.6749	 Learning Rate 0.0010000
+	Val Acc 80.1026%	Val Loss 0.5987
+	Validation accuracy improved from 79.7628% to 80.1026%! Saving checkpoint...
+
+Epoch 5/5
+	Train Acc 78.5458%	Train Loss 0.6620	 Learning Rate 0.0010000
+	Val Acc 80.4530%	Val Loss 0.5884
+	Validation accuracy improved from 80.1026% to 80.4530%! Saving checkpoint...
