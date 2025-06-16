@@ -10,22 +10,22 @@ class InvertedPyramidNet(nn.Module):
             nn.BatchNorm1d(input_dim),
             nn.Linear(input_dim, 2048),
             nn.BatchNorm1d(2048),
-            nn.Softplus(),
+            nn.ReLU(),
             nn.Dropout(dropout),
 
             nn.Linear(2048, 1024),
             nn.BatchNorm1d(1024),
-            nn.Softplus(),
+            nn.ReLU(),
             nn.Dropout(dropout),
 
             nn.Linear(1024, 512),
             nn.BatchNorm1d(512),
-            nn.Softplus(),
+            nn.ReLU(),
             nn.Dropout(dropout),
 
             nn.Linear(512, 256),
             nn.BatchNorm1d(256),
-            nn.Softplus(),
+            nn.ReLU(),
             nn.Dropout(dropout),
 
             nn.Linear(256, output_dim)
