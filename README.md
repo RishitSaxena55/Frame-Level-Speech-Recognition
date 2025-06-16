@@ -118,3 +118,47 @@ dataset/
 
 ## Key Observations
 - Model converged after 5 epochs
+
+# Installation & Setup
+
+## Prerequisites
+- Python 3.8 or higher
+- CUDA-compatible GPU (recommended for training)
+
+## Quick Start
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/frame-level-phoneme-classifier.git
+cd frame-level-phoneme-classifier
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configuration
+Update the `config.yml` file with your desired settings:
+
+---
+
+# Usage
+
+## Model Architecture
+The model architecture is defined in `models.py`
+
+---
+
+# File Structure
+```
+frame-level-phoneme-classifier/
+├── config.yml                    # Configuration file
+├── requirements.txt               # Python dependencies
+├── models.py                     # Model architecture definitions
+├── phoneme_classifier.ipynb     # Jupyter notebook implementation
+├── models/                       # Saved model checkpoints
+├── logs/                         # Training logs
+├── metrics/                      # Result plots and visualizations
+└── README.md                     # This file
+```
