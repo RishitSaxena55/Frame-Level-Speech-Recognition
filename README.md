@@ -152,7 +152,7 @@ The model architecture is defined in `models.py`
 
 # File Structure
 ```
-frame-level-phoneme-classifier/
+Frame-Level-Speech-Recognition/
 ├── config.yml                    # Configuration file
 ├── requirements.txt               # Python dependencies
 ├── models.py                     # Model architecture definitions
