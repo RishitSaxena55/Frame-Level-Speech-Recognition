@@ -113,7 +113,7 @@ dataset/
 ## Additional Metrics
 
 ### Learning Rate Schedule
-![Learning Rate Curve](metrics/learning_rate.png)
+![Learning Rate Curve](metrics/learning _rate.png)
 *Learning rate progression during training showing scheduler behavior*
 
 ## Key Observations
